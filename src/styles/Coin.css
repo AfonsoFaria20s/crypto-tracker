@@ -1,0 +1,63 @@
+.coin-content {
+    width: 75%;
+    height: 70px;
+    border: 1px solid rgb(175, 175, 175);
+    background-color: white;
+    margin: 20px auto;
+    border-radius: 10px;
+    font-weight: 600;
+}
+
+.coin-content span {
+    color: rgb(47, 47, 61);
+}
+
+.name {
+    height: 100%;
+    width: 200px;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.name span {
+    margin: auto 20px;
+}
+
+.name #symbol {
+    width: 50%;
+}
+
+.name #name {
+    width: 50%;
+}
+
+.price_per-change {
+    height: 100%;
+    position: relative;
+    float: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.price_per-change span {
+    margin: auto 50px;
+}
+
+.Mkt-Cap_Vol-Usd-24h {
+    height: 100%;
+    position: relative;
+    float: right;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mkt-Cap_Vol-Usd-24h span {
+    margin: auto 50px;
+}
+
+#dest {
+    margin: 0;
+    color: #fcd52b;
+}
